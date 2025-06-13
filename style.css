@@ -66,6 +66,7 @@ body{
     font-size: 14px;
     color: var(--cor_claro);
     padding: 20px 45px 20px 20px;
+    align-items: center;
 }
 
 .caixa-entrada input::placeholder{
@@ -75,8 +76,8 @@ body{
 .caixa-entrada i{
     position: absolute;
     right: 20px;
-    top: 50%;
-    transform: translateY(50%);
+    top: 100%;
+    transform: translateY(-50%);
     font-size: 20px;
 }
 
@@ -144,6 +145,7 @@ footer{
     backdrop-filter: blur(20px);
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     padding: 16px 8px;
+    text-align:center;
 }
 
 
