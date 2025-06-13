@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation com Javascript | Artur Toblib</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <form>
+            <h1>Login</h1>
+            <div class="caixa-entrada">
+                <label for="nome">Nome:</label>
+                <input
+                type="text"
+                id="nome"
+                name="name"
+                placeholder="Digite seu nome"
+                '''required'''
+                />
+                
+                <i class='bx bx-user' ></i>
+            </div>
+
+            <div class="caixa-entrada">
+                <label for="senha">Senha:</label>
+                <input
+                type="password"
+                id="senha"
+                name="senha"
+                placeholder="Digite sua senha"
+                '''required'''
+                />
+                <i class='bx bx-lock-alt' ></i>
+            </div>
+
+            <div class="lembrar-esqueciSenha">
+                <label>
+                    <input type="checkbox">Lembrar
+                </label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <div class="registrar">
+                <p>Ainda não tem uma conta? <a href="#">Registrar</a></p>
+            </div>
+
+            </div>
+
+            
+
+        </form>
+    </div>
+
+    <footer>
+        <div id="footer_conteudo">
+            <ul class="footer_lista">
+                <li><i class='bx bx-envelope'></i><a href="mailto:arturtoblib@hotmail.com">Email</a></li>
+                <li><i class='bx bxl-linkedin-square' ></i><a href="http://www.linkedin.com/in/arturtoblib">LinkedIn</a></li>
+                <li><i class='bx bxl-github' ></i><a href="www.github.com/arturtoblib">Github</a></li>
+                <li><i class='bx bx-phone' ></i>+55 21 98136-5896</li>
+                <li><i class='bx bxl-discord-alt' ></i><a href="discordapp.com/users/arturtoblib">Discord</a></li>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
